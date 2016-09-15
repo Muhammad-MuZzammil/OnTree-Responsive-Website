@@ -49,7 +49,8 @@ body{
 
 /*BUTTONS*/
 
-.btn-lg{
+.btn-lg,
+.btn-success-outine{
     background-color: transparent;
     border-radius: 5px;
     border: 1px solid rgba(19, 128, 26, 1);
@@ -60,7 +61,12 @@ body{
 
 .btn-lg:hover,
 .btn-lg:focus,
-.btn-lg:active{
+.btn-lg:active,
+.btn-success-outine:hover,
+.btn-success-outine:focus,
+.btn-success-outine:active
+
+{
     background-color: rgba(19, 128, 36, 1);
     border: 1px solid rgba(19, 128, 26, 0);
     transition: 0.5s
@@ -79,3 +85,39 @@ body{
     color: rgba(19, 128, 36, 0.54);
     transition: 0.3s;
 }
+
+/* SPANS */
+
+.bold-green{
+    color: rgba(19, 128, 36, 0.9);
+}
+
+.green-underline{
+    border-bottom: 1px solid rgba(19, 128, 36, 0.9);
+}
+
+/*NAVBARS*/
+
+.navbar-brand{
+    font-family: 'Cubano-Regular';
+    padding-right: 15px;
+}
+
+#main-nav{
+
+        font-family: 'Nunito-Regular'; 
+
+}
+
+#main-nav li a{
+    border-bottom: 1px solid transparent;
+    transition: 0.5s;
+
+}
+
+#main-nav li a:hover{
+        border-bottom: 1px solid green;
+        transition: 0.5s;
+
+}
+    
