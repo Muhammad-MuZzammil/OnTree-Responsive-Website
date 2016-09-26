@@ -1,3 +1,7 @@
+/*COLOR  
+rgba(19, 128, 36, 0.54);
+*/
+
 html,
 body{
     height: 100%;
@@ -276,13 +280,91 @@ body{
 }
 
 /* SECTION-CARDS */
+#section-cards h2{
+    text-align: center;
+}
+
+#section-cards{
+    padding: 5rem 0;
+}
+
+.card{
+    margin-top: 3rem;
+}
+.card a{
+    color: rgba(19, 128, 36, 0.90);
+
+}
+
+.card a:hover {
+     color: rgb(19, 128, 36);
+}
+.card img{
+    height: 180px;
+    width: 415px;
+    transition: 1s;
+
+}
+
+.card img:hover{
+    transform: scale(0.98);
+    transition: 1s;
+    
+}
+
+/* SECTION NUMBERS */
+
+.section-numbers{
+    background-color: white;
+    padding-top: 5rem;
+    
+}
 h2{
     text-align: center;
 }
 
-.card{
+
+.num-content{
+    height: 140px;
+    width: 140px;
+    display: table;
+    font-size: 20px;
+    line-height: 20px;
+    background: rgba(19, 128, 36, 0.91);
+    border-radius: 100px;
+    color: white;
+
+}
+
+.num .num-content{
+    display: table-cell;
+    vertical-align: middle;
     
 }
-#section-cards{
-    
+
+
+.num{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-left: 80px;
 }
+
+.num-content p{
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
