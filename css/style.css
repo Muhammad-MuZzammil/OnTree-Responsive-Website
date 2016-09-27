@@ -332,8 +332,14 @@ h2{
     line-height: 20px;
     background: rgba(19, 128, 36, 0.91);
     border-radius: 100px;
-    color: white;
+    color: white; 
+    transition: 0.3s;
 
+
+}
+.num-content:hover{
+    color: #222;
+    transition: 0.3s;
 }
 
 .num .num-content{
@@ -349,6 +355,7 @@ h2{
     padding-bottom: 5rem;
     margin-left: 80px;
 }
+
 
 .num-content p{
     padding-top: 15px;
