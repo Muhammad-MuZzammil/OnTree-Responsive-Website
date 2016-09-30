@@ -361,8 +361,47 @@ h2{
     padding-top: 15px;
 }
 
+/* SECTION TESTIMONIALS */
+
+.section-testimonials{
+    padding-top: 5rem;
+}
+
+.testimonials{
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+}
+.mario-img,
+.monice-img,
+.monka-img{
+    width: 135px;
+    height: auto;
+    border-radius: 50%;
+    transition: 0.5s;
+
+        
+}
+.mario-img:hover,
+.monice-img:hover,
+.monka-img:hover{
+    transition: 0.5s;
+    transform: scale(0.95);
+}
+
+blockquote{
+    font-family: 'Nunito-Regular';
+}
+
+.fa.fa-quote-right{
+        margin-right: 10px;
+}
+.testimonials-hr{
+    border-top: 1px solid rgba(19, 128, 36, 1);
+    background-color: rgba(19, 128, 36, 1);
+    width: 260px;
 
 
+}
 
 
 
