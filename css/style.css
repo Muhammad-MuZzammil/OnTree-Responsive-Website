@@ -405,8 +405,53 @@ blockquote{
 
 /* SECTION CONTACT */
 
+.section-contact{
+    padding: 5rem 0;
+
+    margin-left: 25rem;
+    
+}
+#contact{
+    background-color: white;
+
+}
+
+#contact .control-label{
+    font-size: 20px;
+    line-height: 80%;
+    margin-top: 10px
+}
+
+.form-control{
+    font-size: 20px;
+}
+
+.form-horizontal{
+    padding-top: 5rem;
+}
+textarea:focus, input:focus{
+    border-color: rgba(19, 128, 36, 0.53) !important;
+    border-shadow: 0 1px 1px rgba(19, 128, 36, 0.075) 0 1px 1px rgba (19, 128, 36, 0.05) !important; 
+}
+#contact .btn.btn-success{
+    background-color: rgba(19, 128, 36, 1);
+    border:  1px solid rgba(19, 128, 36, 1);
+    margin-left: 9rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+
+#contact .btn.btn-success:hover{
+        background-color: rgba(19, 128, 36, 0.9);
+        border:  1px solid rgba(19, 128, 36, 1);
+        transition: 0.5s;
 
 
+}
 
 
 
