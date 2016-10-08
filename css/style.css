@@ -526,3 +526,12 @@ footer p{
 
 
 
+/* ANIMATION */
+
+
+.js-wp-1{
+    opacity: 0;
+}
+.js-wp-1:animated{
+    opacity: 1;
+}
