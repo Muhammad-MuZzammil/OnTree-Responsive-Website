@@ -301,7 +301,7 @@ body{
 }
 .card img{
     height: 180px;
-    width: 415px;
+    width: 100%;
     transition: 1s;
 
 }
@@ -534,4 +534,50 @@ footer p{
 }
 .js-wp-1:animated{
     opacity: 1;
+}
+
+
+.js-wp-2{
+    opacity: 0;  
+    animation-delay: 0.7s;
+
+}
+.js-wp-2:animated{
+    opacity: 1;
+}
+
+.js-wp-3{
+    opacity: 0;
+    animation-delay: 0.7s;
+}
+.js-wp-3:animated{
+    opacity: 1;
+}
+
+.js-wp-4{
+    opacity: 0;
+    animation-delay: 1.4s;
+}
+.js-wp-4:animated{
+    opacity: 1;
+}
+
+.js-wp-5{
+    opacity: 1;    
+
+}
+
+
+.js-wp-6{
+    opacity: 1;
+}
+
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 1920px) {
+    .wall-sticker{
+        font-size: 4rem;
+        padding: 16rem 20rem 10rem 3rem
+    }
 }
