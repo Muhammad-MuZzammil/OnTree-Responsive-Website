@@ -578,6 +578,54 @@ footer p{
 @media only screen and (max-width: 1920px) {
     .wall-sticker{
         font-size: 4rem;
-        padding: 16rem 20rem 10rem 3rem
+        padding: 16rem 20rem 10rem 3rem;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    
+    
+    .parallax-btn{
+margin-left: 37rem;
+        }
+    .fa-facebook-square,
+    .fa-twitter-square,
+    .fa-google-plus-square,
+    .fa-instagram{
+        font-size: 33px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1079px) {
+    .navbar{
+        font-size: 15px;
+    }
+    
+    .fa-arrow-down {
+        position: absolute;
+        right: 10rem;
+    }
+    
+    .wall-sticker{
+        margin-left: -12rem;
+    }
+    
+    .fa-facebook-square,
+    .fa-twitter-square,
+    .fa-google-plus-square,
+    .fa-instagram{
+            font-size: 98%;
+    }
+    .monka-img,
+    .mario-img,
+    .monice-img{
+        width: 85px;
+        height: 85px;
+    }
+    .testimonials-hr{
+        width: 210px;
     }
 }
